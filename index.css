@@ -1,0 +1,143 @@
+body, html{
+  width: 100%;
+  margin: 0;
+}
+body {
+  background-color: white;
+  padding-bottom: 50px;
+  box-sizing: border-box;
+}
+
+.imageContainerItem {
+  margin: 0.8%;
+  height: 320px;
+  overflow: hidden;
+  object-fit: cover;
+  padding: 3px;
+  box-sizing: border-box;
+  border: 1px solid lightgray;
+}
+
+@media screen and (min-width: 768px) {
+  .imageContainerItem {
+    width: 90%;
+  }
+  .imagecontainer {
+    margin: 10px 3.75%;
+  }
+  #groupRight {
+    right: 8.55%; 
+  }
+  #groupLeft {
+    left: 8.55%;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .imageContainerItem {
+    width: 45%;
+  }
+  .imagecontainer {
+    margin: 10px 3.75%;
+  }
+  #groupRight {
+    right: 7.55%; 
+  }
+  #groupLeft {
+    left: 7.55%;
+  }
+}
+
+
+@media screen and (min-width: 1200px) {
+  .imageContainerItem {
+    width: 31.7%;
+  }
+  .imagecontainer {
+    margin: 20px 15%;
+  }
+  #groupRight {
+    right: 15.8%;
+  }
+  #groupLeft {
+    left: 15.8%;
+  }
+}
+
+#groupRight, 
+#groupLeft {
+  position: fixed;
+}
+
+.imagecontainer {
+ display: flex;
+ flex-wrap: wrap;
+ flex-grow: 1;
+ justify-content: center;
+}
+
+footer {
+  font-family: Courier New;
+  border-top: 1px solid rgb(36,36,36);
+  padding-top: 10px;
+  padding-bottom: 20px;
+  color: rgb(36,36,36);
+  display: flex;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 10px;
+  background: white;
+}
+
+a {
+  float: top-right;
+  color: rgb(36,36,36);
+  text-decoration: none;
+}
+
+#last {
+  border: 1px solid rgb(36,36,36);
+  padding: 0 10px;
+}
+
+#customcamera {
+  font-weight: 700;
+}
+
+#imageModal {
+  text-align: center;
+  z-index: 1024;
+  background-color: rgba(0,0,0,0.9);
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height: 100%;
+}
+
+.imageModalOpen {
+  overflow: hidden;
+}
+
+.hideModal {
+  display: none;
+}
+
+#imageModal > img {
+  max-width:920px;
+  max-height:680px;
+  width: auto;
+  height: auto;
+  overflow: auto;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+
+
