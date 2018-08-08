@@ -13,3 +13,12 @@ imageModal.addEventListener("click", function (event) {
     imageModal.classList.add ("hideModal")
   }
 })
+
+var imageContainer = document.getElementById("imageContainer");
+
+for (var i = 0; i < photoURLs.length; i ++) {
+  var image = document.createElement("img"); 
+  image.classList.add("imageContainerItem");
+  image.src = "https://scontent-dfw5-2.cdninstagram.com/vp/" + photoURLs[i];
+  imageContainer.appendChild(image);
+}

@@ -1,4 +1,4 @@
-var fogCityURLs = [
+var photoURLs = [
   "9f9396cede19273406f8e8d1da4df547/5BB24596/t51.2885-15/e35/18580867_1722892448013238_4671923823812018176_n.jpg",
   "96a241eef9613f5ac6839c6a064afaf3/5BE40D1C/t51.2885-15/e35/18646399_1185343414927797_611070255904587776_n.jpg",
   "ccb2d208ae04f2b2db509f5f329f6fe4/5BCE5B4B/t51.2885-15/e35/19436829_850800115067115_1162723272811347968_n.jpg",
@@ -89,11 +89,4 @@ var fogCityURLs = [
 ];
 
 
-var imageContainer = document.getElementById('imageContainer');
 
-for (var i = 0; i < fogCityURLs.length; i ++) {
-  var image = document.createElement("img"); 
-  image.classList.add("imageContainerItem");
-  image.src = "https://scontent-dfw5-2.cdninstagram.com/vp/" + fogCityURLs[i];
-  imageContainer.appendChild(image);
-}
