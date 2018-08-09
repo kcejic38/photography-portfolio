@@ -73,6 +73,10 @@ body {
   position: fixed;
 }
 
+#groupRight a:hover {
+  text-decoration: underline;
+}
+
 .imagecontainer {
  display: flex;
  flex-wrap: wrap;

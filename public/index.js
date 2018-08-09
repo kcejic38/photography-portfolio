@@ -1,20 +1,26 @@
 var imageContainer = document.getElementById("imageContainer");
 var imageModal = document.getElementById("imageModal")
 var imageModalImage = document.getElementById("imageModalImage")
+
 imageContainer.addEventListener("click", function (event) {
   if (event.target.nodeName === "IMG") {
     var instagramURL = event.target.src
     imageModalImage.src = instagramURL
     imageModal.classList.remove ("hideModal")
   }
-})
+});
+
 imageModal.addEventListener("click", function (event) {
   if (event.target.nodeName !== "IMG") {
     imageModal.classList.add ("hideModal")
   }
-})
+});
 
-var imageContainer = document.getElementById("imageContainer");
+window.addEventListener("keydown", function (event) {
+  if (event.key === "Escape") {
+    imageModal.classList.add ("hideModal")
+  }
+});
 
 for (var i = 0; i < photoURLs.length; i ++) {
   var image = document.createElement("img"); 
@@ -22,3 +28,4 @@ for (var i = 0; i < photoURLs.length; i ++) {
   image.src = "https://scontent-dfw5-2.cdninstagram.com/vp/" + photoURLs[i];
   imageContainer.appendChild(image);
 }
+
