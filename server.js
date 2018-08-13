@@ -10,7 +10,6 @@ app.get("/", function(req, res) {
   res.redirect("/fogCity")
 })
 app.get("/fogCity", function(req, res) {
-  console.log(req.url)
   res.sendFile(path.join(__dirname, './views/fogCity.html'));
 })
 app.get("/sunset", function(req, res) {
@@ -25,7 +24,6 @@ app.get("/travel", function(req, res) {
 app.get("/whiteAndBlack", function(req, res) {
   res.sendFile(path.join(__dirname, './views/whiteAndBlack.html'));
 })
-
 
 setInterval(function(){
     request('http://www.katarinasvorcan.com/', function (error, response, body) {
