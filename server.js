@@ -31,6 +31,7 @@ setInterval(function(){
   });
 }, twentyFiveMinutes); //ping heroku every 25 minutes to prevent sleep
 
-app.listen(process.env.PORT || 3000, function() {
-  console.log('Photo gallery app listening on port 3000!')
+var port = process.env.PORT || 3000;
+app.listen(port, function() {
+  console.log('Photo gallery app listening on port ' + port + '!')
 })

@@ -1,11 +1,11 @@
 var photoURLs = [
-  "2a0f6a73f037b15089718e2ebb5b6cf1/5BB19B4E/t51.2885-15/e35/18723351_1417754808284834_8295666157550043136_n.jpg",
-  "bbdef2a7f47fbc2351ed99d78b2c8a87/5BCA78F1/t51.2885-15/e35/18812080_193517391171228_2997800195225288704_n.jpg",
-  "ab72c3501ec7cde3c919d04e9f651cc1/5BE1D7DB/t51.2885-15/e35/18646454_1921656004742432_5043196009652420608_n.jpg",
-  "507dc6e675eef8a57af4f4f989506d2d/5BE55BAE/t51.2885-15/e35/19121039_243604512804921_325996165319360512_n.jpg",
-  "43456bed5353b9dcd689a4b0df816c64/5BAAE510/t51.2885-15/e35/30086426_224695354952268_6973463954399952896_n.jpg",
-  "eed88f1680278219e19c0376e96d2577/5BCEAAF3/t51.2885-15/e35/30592709_1671043293013338_5990891323882733568_n.jpg",
-  "755e6841831b3940014ba2669afd4b51/5BB44261/t51.2885-15/e35/29715795_362474730931039_2638000756090732544_n.jpg",
-  "be35fedd14ed517dc1945290af02fad0/5BEB8AF7/t51.2885-15/e35/18812372_1338769942843607_6851711806335877120_n.jpg",
-  "17a33db18a40756dc5ac620fb38edd3b/5BADAC7E/t51.2885-15/e35/20065316_1895315417398528_2300837778880987136_n.jpg"
+  "https://res.cloudinary.com/degfz2fjj/image/upload/v1546641587/White_Black_1.jpg",
+  "https://res.cloudinary.com/degfz2fjj/image/upload/v1546641587/White_Black_2.jpg",
+  "https://res.cloudinary.com/degfz2fjj/image/upload/v1546641587/White_Black_3.jpg",
+  "https://res.cloudinary.com/degfz2fjj/image/upload/v1546641587/White_Black_4.jpg",
+  "https://res.cloudinary.com/degfz2fjj/image/upload/v1546641587/White_Black_5.jpg",
+  "https://res.cloudinary.com/degfz2fjj/image/upload/v1546641587/White_Black_6.jpg",
+  "https://res.cloudinary.com/degfz2fjj/image/upload/v1546641587/White_Black_7.jpg",
+  "https://res.cloudinary.com/degfz2fjj/image/upload/v1546641587/White_Black_8.jpg",
+  "https://res.cloudinary.com/degfz2fjj/image/upload/v1546641587/White_Black_9.jpg"
 ];

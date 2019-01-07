@@ -1,14 +1,14 @@
 var photoURLs = [
-  "3fd0e58190fb64544f889cd42fb0fd6e/5BAE3558/t51.2885-15/e35/32219149_249043858990926_749083811576283136_n.jpg",
-  "2dabaadd1b39d425525c2b7e4789dce6/5BE18796/t51.2885-15/e35/18723783_426457291059040_5163733124353359872_n.jpg",
-  "ad26228b69c709b452cd82333d6355e6/5BCC0E31/t51.2885-15/e35/19367026_461664344181270_5276442626797600768_n.jpg",
-  "4ee2fa4ce2ff4b5889ba81969d8bfea1/5BE32804/t51.2885-15/e35/19228425_243885986105480_1139029566031921152_n.jpg",
-  "91abda20014b546559542a37183ee16b/5BB024B8/t51.2885-15/e35/18879325_1555962937760890_6773408436496367616_n.jpg",
-  "ebd448f06725380b6f44dd524dead4ec/5BCE9D69/t51.2885-15/e35/19052069_1413479465379500_3904909863804731392_n.jpg",
-  "fc8a8316bb221efa389f26ad9a157a4c/5BB74C6E/t51.2885-15/e35/20394310_202405926958549_8431888101973950464_n.jpg",
-  "e9cc22b1d7816cded57edab0aa526337/5BCA86F6/t51.2885-15/e35/20181218_2019117484974191_5890399727790325760_n.jpg",
-  "59681cecd66858969d59237f6f9d5783/5BCBE351/t51.2885-15/e35/18722208_258826351253366_3783918663686422528_n.jpg",
-  "8637d8b6b0b1b2697e6e5fedd8cba820/5BB41944/t51.2885-15/e35/19122247_444731542594854_5919851873317158912_n.jpg",
-  "8ce29eb12a638576bfd52d620f2c0572/5BE62A2C/t51.2885-15/e35/19121007_1947184068859592_3772172782830354432_n.jpg",
-  "c9eef9386a25a597b3e9f3247c302c9e/5BCDF7F0/t51.2885-15/e35/19051409_212484735939326_3928830203123466240_n.jpg"
+  "https://res.cloudinary.com/degfz2fjj/image/upload/v1546641587/People_1.jpg",
+  "https://res.cloudinary.com/degfz2fjj/image/upload/v1546641587/People_2.jpg",
+  "https://res.cloudinary.com/degfz2fjj/image/upload/v1546641587/People_3.jpg",
+  "https://res.cloudinary.com/degfz2fjj/image/upload/v1546641587/People_4.jpg",
+  "https://res.cloudinary.com/degfz2fjj/image/upload/v1546641587/People_5.jpg",
+  "https://res.cloudinary.com/degfz2fjj/image/upload/v1546641587/People_6.jpg",
+  "https://res.cloudinary.com/degfz2fjj/image/upload/v1546641587/People_7.jpg",
+  "https://res.cloudinary.com/degfz2fjj/image/upload/v1546641587/People_8.jpg",
+  "https://res.cloudinary.com/degfz2fjj/image/upload/v1546641587/People_9.jpg",
+  "https://res.cloudinary.com/degfz2fjj/image/upload/v1546641587/People_10.jpg",
+  "https://res.cloudinary.com/degfz2fjj/image/upload/v1546641587/People_11.jpg",
+  "https://res.cloudinary.com/degfz2fjj/image/upload/v1546641587/People_12.jpg"
 ];

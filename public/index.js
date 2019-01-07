@@ -4,28 +4,29 @@ var imageModalImage = document.getElementById("imageModalImage")
 
 imageContainer.addEventListener("click", function (event) {
   if (event.target.nodeName === "IMG") {
-    var instagramURL = event.target.src
-    imageModalImage.src = instagramURL
-    imageModal.classList.remove ("hideModal")
+    var imageURL = event.target.src
+    imageModalImage.src = imageURL
+    imageModal.classList.remove("hideModal")
   }
 });
 
 imageModal.addEventListener("click", function (event) {
   if (event.target.nodeName !== "IMG") {
-    imageModal.classList.add ("hideModal")
+    imageModal.classList.add("hideModal")
   }
 });
 
 window.addEventListener("keydown", function (event) {
-  if (event.key === "Escape") {
-    imageModal.classList.add ("hideModal")
+  var isAlreadyHidden = imageModal.classList.contains("hideModal")
+  if (event.key === "Escape" && !isAlreadyHidden) {
+    imageModal.classList.add("hideModal")
   }
 });
 
 for (var i = 0; i < photoURLs.length; i ++) {
   var image = document.createElement("img"); 
   image.classList.add("imageContainerItem");
-  image.src = "https://scontent-dfw5-2.cdninstagram.com/vp/" + photoURLs[i];
+  image.src = photoURLs[i];
   imageContainer.appendChild(image);
 }
 
